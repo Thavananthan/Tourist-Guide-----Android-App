@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "445326084712",
+    "firebase_url": "https://homeui-e2048.firebaseio.com",
+    "project_id": "homeui-e2048",
+    "storage_bucket": "homeui-e2048.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:445326084712:android:72af1d768090c81b",
+        "android_client_info": {
+          "package_name": "com.example.nanthu.homeui"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "445326084712-giib8p3bgpfua9god801okolqso6bajc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.nanthu.homeui",
+            "certificate_hash": "c3fee1d648f90c2ae13931221c374d80cfdb92c4"
+          }
+        },
+        {
+          "client_id": "445326084712-juh1mrt5vl3c1ngfnimglnt9gfju1lk8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDigoXYuErPTdCf8ZlkVHscgabOtKwduhc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "445326084712-juh1mrt5vl3c1ngfnimglnt9gfju1lk8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

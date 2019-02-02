@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f9f9f5">
+
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#28b463"
+        app:popupTheme="@style/AppTheme.PopupOverlay"
+
+        />
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="353dp"
+        android:layout_height="203dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:contentDescription="TODO"
+        app:srcCompat="@drawable/about" />
+
+
+    <TextView
+        android:layout_width="346dp"
+        android:layout_height="235dp"
+        android:layout_below="@+id/imageView2"
+        android:layout_centerHorizontal="true"
+        android:text="A successful visit to Sri Lanka depends on having an expert tour guide at your disposal. We look forward to meeting you, and to helping to make your visit an unforgettable success! We have long experience of the country, its customs and traditions, and its many astonishing historical and cultural sites. "
+        android:textColor="#0e0e0e"
+        android:textSize="18dp" />
+</RelativeLayout>

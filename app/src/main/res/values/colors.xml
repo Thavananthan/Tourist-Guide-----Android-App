@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#28b463</color>
+    <color name="colorPrimaryDark">#28b463</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="thextback">#ffff</color>
+    <color name="logintext">#b7b5b5</color>
+    <color name="black">#0d0d0d</color>
+    <color name="posttextcolor">#746c6c</color>
+    <color name="colorProfile">#3B4041</color>
+    <color name="mainbackground">#D7D7D7</color>
+    <color name="message">#A0179E</color>
+</resources>

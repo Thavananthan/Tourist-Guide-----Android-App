@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/backgroundimage8"
+    android:layout_height="match_parent"
+    tools:context=".ProfileSetupActivity">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_setup_Image"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/images"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.06" />
+
+    <EditText
+        android:id="@+id/profile_setup_username"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/inputs"
+        android:drawableLeft="@drawable/ic_action_username"
+        android:ems="10"
+        android:hint="User Name"
+        android:inputType="textPersonName"
+        android:textColorHint="@color/logintext"
+        android:textSize="24dp"
+        app:layout_constraintEnd_toEndOf="@+id/profile_setup_Image"
+        app:layout_constraintStart_toStartOf="@+id/profile_setup_Image"
+        app:layout_constraintTop_toBottomOf="@+id/profile_setup_Image" />
+
+    <EditText
+        android:id="@+id/profile_setup_fullname"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/inputs"
+        android:drawableLeft="@drawable/ic_action_username"
+        android:ems="10"
+        android:hint="FullName"
+        android:inputType="textPersonName"
+        android:textColorHint="@color/logintext"
+        android:textSize="24dp"
+        app:layout_constraintEnd_toEndOf="@+id/profile_setup_username"
+        app:layout_constraintStart_toStartOf="@+id/profile_setup_username"
+        app:layout_constraintTop_toBottomOf="@+id/profile_setup_username" />
+
+    <EditText
+        android:id="@+id/profileSetup_country"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/inputs"
+        android:drawableLeft="@drawable/ic_action_username"
+        android:ems="10"
+        android:hint="Country"
+        android:inputType="textPersonName"
+        android:textColorHint="@color/logintext"
+        android:textSize="24dp"
+        app:layout_constraintEnd_toEndOf="@+id/profile_setup_fullname"
+        app:layout_constraintStart_toStartOf="@+id/profile_setup_fullname"
+        app:layout_constraintTop_toBottomOf="@+id/profile_setup_fullname" />
+
+    <Button
+        android:id="@+id/btn_save"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button"
+        android:text="Save"
+        android:textColor="@color/thextback"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:typeface="serif"
+        app:layout_constraintEnd_toEndOf="@+id/profileSetup_country"
+        app:layout_constraintStart_toStartOf="@+id/profileSetup_country"
+        app:layout_constraintTop_toBottomOf="@+id/profileSetup_country" />
+
+
+
+
+</android.support.constraint.ConstraintLayout>

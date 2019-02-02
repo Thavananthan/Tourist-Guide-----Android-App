@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".ImageUpload">
+
+    <ImageView
+        android:id="@+id/Choose_file"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_above="@+id/DeceText"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="95dp"
+        android:src="@drawable/index"
+        android:text="Choose file" />
+
+
+
+    <EditText
+        android:id="@+id/DeceText"
+        android:layout_width="match_parent"
+        android:layout_height="91dp"
+        android:background="@drawable/inputs"
+        android:layout_above="@+id/button_upload"
+        android:layout_centerHorizontal="true"
+        android:hint="Enter the Description" />
+
+
+
+
+    <EditText
+        android:id="@+id/edit_text_file_name"
+        android:layout_width="325dp"
+        android:layout_height="50dp"
+
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="21dp"
+        android:background="@drawable/inputs"
+        android:hint="Enter the file name" />
+
+    <Button
+        android:id="@+id/button_upload"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:layout_alignTop="@+id/text_view_show_upload"
+        android:layout_centerHorizontal="true"
+        android:text="Upload"
+        android:textColor="@color/thextback"/>
+
+    <TextView
+        android:id="@+id/text_view_show_upload"
+        android:layout_width="wrap_content"
+        android:layout_height="41dp"
+        android:layout_alignEnd="@+id/edit_text_file_name"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="29dp"
+        android:gravity="center"
+        android:text=""
+        android:textSize="16dp" />
+</RelativeLayout>

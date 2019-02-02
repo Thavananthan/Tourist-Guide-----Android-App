@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.nanthu.homeui">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyCRByvxS6sbpg51yRLpgnLS0R51SDV2usE"/>
+
+        <activity
+            android:name=".Home"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Search"
+            android:parentActivityName=".Home" />
+        <activity
+            android:name=".NewActivity"
+            android:parentActivityName=".Search" />
+        <activity
+            android:name=".ImageUpload"
+            android:parentActivityName=".Home" />
+        <activity android:name=".SettingActivity" />
+        <activity android:name=".profileActivity" />
+        <activity android:name=".changePasswordActivity" />
+        <activity
+            android:name=".LoginActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".SignupActivity" />
+        <activity android:name=".Reset_passwordActivity" />
+        <activity
+            android:name=".welcomActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".AboutUs_Activity" />
+        <activity android:name=".FeedbackActivity" />
+        <activity android:name=".ProfileSetupActivity" />
+        <activity
+            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+            android:theme="@style/Base.Theme.AppCompat" />
+        <activity
+            android:name=".ClickPostActivity"
+            android:parentActivityName=".Home" />
+        <activity android:name=".ViewProfileActivity" />
+        <activity
+            android:name=".FindFriendActivity"
+            android:parentActivityName=".Home" />
+        <activity android:name=".CommentsActivity" />
+        <activity android:name=".PersonProfileActivity" />
+        <activity
+            android:name=".Friendsctivity"
+            android:parentActivityName=".Home" />
+        <activity
+            android:name=".ChatActivity"
+            android:parentActivityName=".Home" />
+        <activity
+            android:name=".MypostsViewActivity"
+            android:parentActivityName=".Home" />
+        <activity android:name=".MapActivity"></activity>
+    </application>
+
+</manifest>
